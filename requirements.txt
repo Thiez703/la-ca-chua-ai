@@ -1,0 +1,11 @@
+# Cài PyTorch bản CUDA trước theo hướng dẫn tại pytorch.org (chọn CUDA 12.x cho RTX 3050)
+torch
+torchvision
+gradio>=4.0
+scikit-learn
+numpy
+pillow
+# Chỉ cần cho bước 03 (Stable Diffusion)
+diffusers
+transformers
+accelerate

@@ -1,0 +1,21 @@
+# Môi trường ảo
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Dữ liệu sinh ra từ các bước 01–03 (ảnh PlantVillage + ảnh tăng cường) – tạo lại bằng script
+data/
+
+# Mô hình và kết quả huấn luyện (bước 04) – tạo lại bằng 04_huan_luyen.py
+models/
+
+# Gradio / IDE / hệ điều hành
+.gradio/
+flagged/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
